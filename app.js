@@ -32,5 +32,28 @@ console.log(daysOfWeek);
 
 ////////////////////////////
 
-const playName = "nico";
-cosnt playerPoints = 12121212
+// const playName = "nico";
+// const playerPoints = 12121212;
+// const playerHandsome = true;
+// const playerFat = "little bit";
+
+// const player = ["nico", 1212, true, "little bit"];
+
+const player = {
+    name: "nico",
+    points: 10,
+    fat: true,
+};
+console.log(player);
+console.log(player.points);
+console.log(player["name"]);
+
+player.fat = false;
+console.log(player);
+
+player.lastName ="point";
+console.log(player);
+
+console.log(player);
+player.points = player.points + 15;
+console.log(player);
