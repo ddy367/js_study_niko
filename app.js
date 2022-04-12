@@ -87,3 +87,54 @@ const players = {
 console.log(players.name);
 players.sayHello("lynn");
 players.sayHello("nico");
+
+const d = 5;
+let inNicoFat = true;
+let hello = "aa";
+
+console.log(hello);
+inNicoFat = false;
+
+const toBuy = ["potato", "tomato", "pizza"];
+
+console.log(toBuy[2]);
+toBuy[2] = "water";
+console.log(toBuy[2]);
+toBuy.push("meat");
+console.log(toBuy);
+
+const player3 = {
+    name : "Nico",
+    age : 98,
+};
+
+console.log(player3, console);
+console.log(player3.name);
+
+player3.name="nicolas";
+console.log(player3);
+player3.sexy = "soon";
+console.log(player3);
+
+ function plus(potato, salad) { 
+     console.log(potato + salad);
+}
+ 
+ plus(5, 10);
+ plus(1.2345, 5945);
+ plus(5945, 1.2345);
+
+function minustFive(sweetPotato) {
+    console.log(sweetPotato - 5);
+}
+
+minustFive(15, 10, 12, 34, 4, 5, 6, 7);
+
+const calculator = {
+    add: function(a, b) {
+        console.log(a, b);
+    },
+};
+
+calculator.add(5, 1);
+console.log()
